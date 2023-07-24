@@ -44,12 +44,19 @@ API Endpoints
 The following are the available API endpoints:
 
 POST /api/users/ - Create a new user
+
 GET /api/users/:userId - Get the user's profile
+
 PUT /api/users/:userId - Update the user's profile
+
 POST /api/thoughts/:userId - Create a new post
+
 PUT /api/users/:userId - Update a post by ID
+
 DELETE /api/user/:id - Delete a user by ID
+
 POST /api/users/:userId/friends/:userId - Follow a user by ID
+
 DELETE /api/users/:userId/frinds/:userId - Unfollow a user by ID
 
 
